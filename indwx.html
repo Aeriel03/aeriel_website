@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> love shirt's </title>
+    <style>
+        .head1 {
+            background-color: rgb(90, 18, 29);
+            text-align: center;
+            color: white;
+            padding: 80px;
+            font-size:50px;
+            margin-top:10px;
+            width: 95;
+            height: 100px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #673a3a;
+            display: flex;
+            justify-content: space-around;
+            font-size: 30px;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: rgb(64, 45, 54);
+            font-size: 32px;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 200px;
+        }
+
+        .product button {
+            background-color: rgb(7, 7, 7);
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+      .product {
+           background-color: white;
+           padding: 20px;
+           border-radius: 10px;
+           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+           text-align: center;
+           width: 200px;
+           transition: transform 0.3s ease, box-shadow 0.3s ease;
+          } 
+
+       .product:hover {
+          transform: scale(1.05);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     }
+
+       .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        button:hover {
+            background-color: grey;
+        }
+
+        .footer {
+            background-color: grey;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 30px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="head1">Welcome to shirt's love</h1>
+
+    <ul>
+        <li><a href="indwx.html">Home</a></li>
+        <li><a href="notification.html">Notification</a></li>
+        <li><a href="about.html">about</a></li>
+    </ul>
+
+    <p style="text-align:center;">
+        <input type="text" placeholder="Search for products.." style="width: 300px; height: 40px; font-size: 20px;">
+    
+
+    <div class="main">
+        <div class="product">
+            <img src="love.jpg" alt="Product 1">
+           
+            <p>$685.00</p>
+            <button onclick="addToCart('Product 1', 685)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="4.webp" alt="Product 2">
+            
+            <p>$750.00</p>
+            <button onclick="addToCart('Product 2', 750)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="5.jpg" alt="Product 3">
+            
+            <p>$550.00</p>
+            <button onclick="addToCart('Product 3', 550)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="3.jpg" alt="Product 4">
+           
+            <p>$600.00</p>
+            <button onclick="addToCart('Product 4', 500)">Add to Cart</button>
+        </div>
+                <div class="product">
+            <img src="2.webp" alt="Product 4">
+            
+            <p>$650.00</p>
+            <button onclick="addToCart('Product 4', 500)">Add to Cart</button>
+        </div>
+         <div class="product">
+            <img src="1.jpg" alt="Product 4">
+          
+            <p>$350.00</p>
+            <button onclick="addToCart('Product 4', 500)">Add to Cart</button>
+        </div>
+ <div class="product">
+            <img src="7.jpg" alt="Product 4">
+           
+            <p>$250.00</p>
+            <button onclick="addToCart('Product 4', 500)">Add to Cart</button>
+        </div>
+ <div class="product">
+            <img src="6.jpg" alt="Product 4">
+           
+            <p>$800.00</p>
+            <button onclick="addToCart('Product 4', 500)">Add to Cart</button>
+        </div>
+ <div class="product">
+            <img src="8.jpg" alt="Product 4">
+           
+            <p>$700.00</p>
+            <button onclick="addToCart('Product 4', 500)">Add to Cart</button>
+        </div>
+ 
+ <div class="0">2</div>
+    </div>
+
+    <div class="footer">
+       &copy; 2025 Welcome to shirt's love . All Rights Reserved.
+    </div>
+
+
+</body>
+</html>
+
